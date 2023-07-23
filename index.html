@@ -29,18 +29,8 @@
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
-          <svg
-            width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
+          <svg width="32" height="22">
+            <use href="./images/icons.svg#icon-menu"></use>
           </svg>
         </button>
         <nav class="nav-menu">
@@ -150,17 +140,28 @@
           <h2 class="header-two">What are we doing</h2>
           <ul class="menu-2 list">
             <li class="section-two-li">
-              <img src="./images/img1(1).jpg" alt="PC" width="360" />
+              <img
+                srcset="./images/img1(1).jpg 1x, ./images/img1(1)@2x.jpg 2x"
+                src="./images/img1(1).jpg"
+                alt="PC"
+                width="360"
+              />
             </li>
             <li class="section-two-li">
               <img
+                srcset="./images/img2(1).jpg 1x, ./images/img2(1)@2x.jpg 2x"
                 src="./images/img2(1).jpg"
                 alt="A person using a smartphone to program"
                 width="360"
               />
             </li>
             <li class="section-two-li">
-              <img src="./images/img3(1).jpg" alt="phone" width="360" />
+              <img
+                srcset="./images/img3(1).jpg 1x, ./images/img3(1)@2x.jpg 2x"
+                src="./images/img3(1).jpg"
+                alt="phone"
+                width="360"
+              />
             </li>
           </ul>
         </div>
@@ -171,6 +172,7 @@
           <ul class="menu-2 list">
             <li class="section-four-li">
               <img
+                srcset="./images/teamcard7.jpg 1x, ./images/teamcard7@2x.jpg 2x"
                 src="./images/teamcard7.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -211,7 +213,12 @@
               </div>
             </li>
             <li class="section-four-li">
-              <img src="./images/teamcard4.jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="./images/teamcard4.jpg 1x, ./images/teamcard4@2x.jpg 2x"
+                src="./images/teamcard4.jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <div class="container-worker">
                 <h3 class="four-header">Tom Ford</h3>
                 <p class="text-2">Frontend Developer</p>
@@ -250,6 +257,7 @@
             </li>
             <li class="section-four-li">
               <img
+                srcset="./images/teamcard2.jpg 1x, ./images/teamcard2@2x.jpg 2x"
                 src="./images/teamcard2.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -291,6 +299,7 @@
             </li>
             <li class="section-four-li">
               <img
+                srcset="./images/teamcard3.jpg 1x, ./images/teamcard3@2x.jpg 2x"
                 src="./images/teamcard3.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -558,7 +567,6 @@
         <li><a href="" class="link">Contacts</a></li>
       </ul>
     </div>
-
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
