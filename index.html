@@ -19,20 +19,12 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <title>Студія</title>
   </head>
   <body>
     <header class="page-header">
       <div class="container-header container">
-        <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg width="32" height="22">
-            <use href="./images/icons.svg#icon-menu"></use>
-          </svg>
-        </button>
         <nav class="nav-menu">
           <a href="./index.html" class="logo-web link"
             >Web<span class="logo-2">Studio</span></a
@@ -63,6 +55,18 @@
             </li>
           </ul>
         </address>
+        <div class="moblie-button">
+          <button
+            type="button"
+            class="menu-button js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="header-menu" width="32" height="22">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
     <main>
@@ -138,30 +142,19 @@
       <section class="section-three">
         <div class="container">
           <h2 class="header-two">What are we doing</h2>
-          <ul class="menu-2 list">
+          <ul class="menu-4 list">
             <li class="section-two-li">
-              <img
-                srcset="./images/img1(1).jpg 1x, ./images/img1(1)@2x.jpg 2x"
-                src="./images/img1(1).jpg"
-                alt="PC"
-                width="360"
-              />
+              <img src="./images/img1(1).jpg" alt="PC" width="360" />
             </li>
             <li class="section-two-li">
               <img
-                srcset="./images/img2(1).jpg 1x, ./images/img2(1)@2x.jpg 2x"
                 src="./images/img2(1).jpg"
                 alt="A person using a smartphone to program"
                 width="360"
               />
             </li>
             <li class="section-two-li">
-              <img
-                srcset="./images/img3(1).jpg 1x, ./images/img3(1)@2x.jpg 2x"
-                src="./images/img3(1).jpg"
-                alt="phone"
-                width="360"
-              />
+              <img src="./images/img3(1).jpg" alt="phone" width="360" />
             </li>
           </ul>
         </div>
@@ -171,12 +164,36 @@
           <h2 class="header-two">Our Team</h2>
           <ul class="menu-2 list">
             <li class="section-four-li">
-              <img
-                srcset="./images/teamcard7.jpg 1x, ./images/teamcard7@2x.jpg 2x"
-                src="./images/teamcard7.jpg"
-                alt="Mark Guerrero"
-                width="264"
-              />
+              <div>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/teamcard7.jpg        1x,
+                      srcset=./images/teamcard7.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/teamcard7.jpg        1x,
+                      srcset=./images/teamcard7.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/teamcard7.jpg        1x,
+                      srcset=./images/teamcard7.jpg 2x
+                    "
+                    media="(min-width:480px)"
+                  />
+                </picture>
+                <img
+                  src="./images/teamcard7.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                />
+              </div>
               <div class="container-worker">
                 <h3 class="four-header">Mark Guerrero</h3>
                 <p class="text-2">Product Designer</p>
@@ -213,12 +230,32 @@
               </div>
             </li>
             <li class="section-four-li">
-              <img
-                srcset="./images/teamcard4.jpg 1x, ./images/teamcard4@2x.jpg 2x"
-                src="./images/teamcard4.jpg"
-                alt="Tom Ford"
-                width="264"
-              />
+              <div>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/teamcard4.jpg        1x,
+                      srcset=./images/teamcard4.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/teamcard4.jpg        1x,
+                      srcset=./images/teamcard4.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/teamcard4.jpg        1x,
+                      srcset=./images/teamcard4.jpg 2x
+                    "
+                    media="(min-width:480px)"
+                  />
+                </picture>
+                <img src="./images/teamcard4.jpg" alt="Tom Ford" width="264" />
+              </div>
               <div class="container-worker">
                 <h3 class="four-header">Tom Ford</h3>
                 <p class="text-2">Frontend Developer</p>
@@ -256,12 +293,36 @@
               </div>
             </li>
             <li class="section-four-li">
-              <img
-                srcset="./images/teamcard2.jpg 1x, ./images/teamcard2@2x.jpg 2x"
-                src="./images/teamcard2.jpg"
-                alt="Camila Garcia"
-                width="264"
-              />
+              <div>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/teamcard2.jpg        1x,
+                      srcset=./images/teamcard2.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/teamcard2.jpg        1x,
+                      srcset=./images/teamcard2.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/teamcard2.jpg        1x,
+                      srcset=./images/teamcard2.jpg 2x
+                    "
+                    media="(min-width:480px)"
+                  />
+                </picture>
+                <img
+                  src="./images/teamcard2.jpg"
+                  alt="Camila Garcia"
+                  width="264"
+                />
+              </div>
               <div class="container-worker">
                 <h3 class="four-header">Camila Garcia</h3>
                 <p class="text-2">Marketing</p>
@@ -298,12 +359,36 @@
               </div>
             </li>
             <li class="section-four-li">
-              <img
-                srcset="./images/teamcard3.jpg 1x, ./images/teamcard3@2x.jpg 2x"
-                src="./images/teamcard3.jpg"
-                alt="Daniel Wilson"
-                width="264"
-              />
+              <div>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/teamcard3.jpg        1x,
+                      srcset=./images/teamcard3.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/teamcard3.jpg        1x,
+                      srcset=./images/teamcard3.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/teamcard3.jpg        1x,
+                      srcset=./images/teamcard3.jpg 2x
+                    "
+                    media="(min-width:480px)"
+                  />
+                </picture>
+                <img
+                  src="./images/teamcard3.jpg"
+                  alt="Daniel Wilson"
+                  width="264"
+                />
+              </div>
               <div class="container-worker">
                 <h3 class="four-header">Daniel Wilson</h3>
                 <p class="text-2">UI Designer</p>
@@ -346,7 +431,7 @@
       <section class="section-four">
         <div class="container">
           <h2 class="header-five">Customers</h2>
-          <ul class="menu-2 list">
+          <ul class="menu-3 list">
             <li class="section-four-li-v2 list">
               <a href="" class="link-svg-1 link">
                 <svg class="svg-icon-1" width="104" height="56">
@@ -544,41 +629,65 @@
         </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
+
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
-        <svg
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
+        <svg class="svg-close" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
 
       <ul class="mobile-menu">
-        <li><a href="" class="link">Studio</a></li>
-        <li><a href="" class="link">Portfolio</a></li>
-        <li><a href="" class="link">Contacts</a></li>
+        <li><a href="" class="link-moblie">Studio</a></li>
+        <li><a href="" class="link-moblie">Portfolio</a></li>
+        <li><a href="" class="link-moblie">Contacts</a></li>
       </ul>
-      <ul>
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com" class="link address">
-            info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+110001111111" class="link address"
+          <a href="tel:+110001111111" class="mobile-tel link"
             >+11 (000) 111-11-11</a
           >
         </li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="mobile-mail link"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="menu-list list">
+        <li class="section-four-li-v3">
+          <a href="" class="link-svg">
+            <svg width="24" height="24" class="svg-icon">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="section-four-li-v3">
+          <a href="" class="link-svg">
+            <svg width="24" height="24" class="svg-icon">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="section-four-li-v3">
+          <a href="" class="link-svg">
+            <svg width="24" height="24" class="svg-icon">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="section-four-li-v3">
+          <a href="" class="link-svg">
+            <svg width="24" height="24" class="svg-icon">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
       </ul>
     </div>
+
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
@@ -586,6 +695,5 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="js/mobile-menu.js"></script>
-    <script src="./js/modal.js"></script>
   </body>
 </html>
