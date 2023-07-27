@@ -197,10 +197,10 @@
     }
 
     .menu-4 {
-        display: flex;
-        flex-direction: row;
-        gap: 72px 24px;
-        flex-wrap: wrap;
+            display: flex;
+                flex-direction: row;
+                gap: 72px 24px;
+                flex-wrap: wrap;
     }
 
     .menu-5 {
@@ -433,7 +433,6 @@
         }
     
         .text {
-            width: 396px;
             font-size: 16px;
             font-weight: 500;
             line-height: 1.5em;
@@ -458,6 +457,7 @@
         }
     
         .second-header {
+
             font-size: 36px;
             font-weight: 700;
             line-height: 1.07;
