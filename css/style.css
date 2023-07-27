@@ -110,12 +110,13 @@ fill: #FFF;
     letter-spacing: 0.025em;
 }
 .text{
-    font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.5em;
         letter-spacing: 0.02em;
+        width: 100%
 }
 
 
@@ -223,8 +224,7 @@ fill: #FFF;
 
 
 .link-svg-1{
-        width: 100%;
-        height: 100%;
+   
         border: 1px solid #8e8f99;
         border-radius: 4px;
         display: flex;
@@ -356,8 +356,7 @@ span {
                 background-position: center;
                 background-size: cover;
                 background-color: #2E2F42;
-                padding-top: 188px;
-                padding-bottom: 188px;
+                padding: 112px 0;
             }
 
 
@@ -377,7 +376,10 @@ span {
             margin-bottom: 8px;
 }
 
-
+.section-customers{
+    background-color: #fff;
+    padding:  96px 0;;
+}
 .section-four-li{
     border-radius: 0px 0px 4px 4px;
         background-color: #FFFFFF;
@@ -483,12 +485,12 @@ span {
 .footer{
         background-color: #2E2F42;
             padding: 100px 0;
-            margin-top: 120px;
         }
 
                 .container-footer{
                     display: flex;
                         align-items: baseline;
+                        
                 }
 header{
         display: block;
@@ -1007,6 +1009,12 @@ input#user-name:focus {
 }
 .menu-2{
     display: flex;
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+}
+.menu-5{
+    display: flex;
         gap: 24px;
     }
 .menu-4{
@@ -1023,6 +1031,7 @@ display: flex;
 }
 .container-worker{
     padding: 32px 0;
+    width: 264px;
 }
 #facebook-icon{
      display: block;
@@ -1309,10 +1318,18 @@ display: flex;
 
 .mobile-menu .link-moblie {
     display: block;
-    padding: 10px;
     color: #2E2F42;
     text-decoration: none;
 
+}
+.link-modal-2{
+    font-family: "Roboto", sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: var(--custom-color);
+        
 }
 .link-moblie{
         font-family: "Roboto", sans-serif;
@@ -1325,14 +1342,7 @@ display: flex;
 .mobile-menu .link-moblie:focus{
     color: var(--custom-color);
 }
-.mobile-tel{
-    font-family: "Roboto" sans-serif;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: var(--description);
-}
+
 .mobile-mail{
     font-family: "Roboto", sans-serif;
         font-size: 20px;
@@ -1390,7 +1400,7 @@ display: flex;
 
 .menu-list{
     display: flex;
-    align-items: center;
+
     gap: 56px;
 }
 .moblie-li{
@@ -1414,12 +1424,13 @@ display: flex;
     
             display: block;
                 margin-top: 284px;
-                font-size: 36px;
+                font-size: 35px;
                 font-weight: 700;
                 line-height: 1.1;
                 letter-spacing: 0.72px;
-                color: #2E2F42;
+                color: var(--custom-color);
                 margin-bottom: 40px;
+                
 }
 .mobile-mail{
               margin-bottom: 48px;
