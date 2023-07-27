@@ -78,22 +78,23 @@ fill: #FFF;
 
 
 .button-footer{
-        background-color: var(--custom-color);
-        min-width: 165px;
-        height: 40px;
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #ffffff;
-        cursor: pointer;
-        border: none;
-        border-radius: 4px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+           background-color: var(--custom-color);
+            margin: 0 auto;
+            min-width: 165px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 .button-footer:hover,
@@ -230,7 +231,7 @@ fill: #FFF;
         align-items: center;
         justify-content: center;
         color: #8e8f99;
-        width: 168px;
+        width: 100%;
         height: 88px;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1178,9 +1179,7 @@ input#user-name:focus {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.container-button-footer {
-    margin-left: auto;
-} 
+
  .text-under{
     color: #ffffff;
     margin-bottom: 16px;
@@ -1206,17 +1205,18 @@ input#user-name:focus {
 
 .intup-footer {
 
-    width: 264px;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid #ffffff;
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    color: #ffffff;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        width: 100%;
+        height: 40px;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        color: #ffffff;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        margin-bottom: 16px;
 }
 
 .intup-footer::placeholder {

@@ -3,7 +3,8 @@
 
     .logo-web {
         padding: 24px 0;
-        margin-right: 150px;
+      
+     
     }
     .nav-bar{
         display: none;
@@ -61,11 +62,12 @@
             flex-direction: column;
             gap: 72px;
         }
-    
-        .input-footer {
-            width: 398px;
+     
+        .footer-label{
+            width: 100%;
         }
 }
+
 @media srceen and (min-width: 428px) and (max-width: 728px){
     .container {
             max-width: 768px;
