@@ -1,5 +1,5 @@
 
- @media screen and (min-width: 150px) and (max-width: 428px) {
+ @media screen and (max-width: 428px) {
      .section-first{
             padding-top: 124px;
                 padding-bottom: 124px;
@@ -17,11 +17,13 @@
         padding-top: 96px;
      }
      .logo-web{
-        margin-right: 246px;
+        padding: 24px 0;
+        margin-right: 249px;
      }
-     .address-1{
+     .nav-bar{
         display: none;
      }
+     
     .button-main{
         margin-top: 72px;
     }
@@ -29,7 +31,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 0;
+       
     }
     .menu-5{
         display: flex;
@@ -43,40 +45,34 @@
            padding: 0 16px;
     }
            .text {
-               width: 396px;
-               font-size: 16px;
-               font-weight: 500;
-                line-height: 1.5em;
-                    letter-spacing: 0.02em;
-                
+                font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1.5;
+                    letter-spacing: 0.32px;
+                  
            }
-        .section-two-li{
-            margin-bottom: 72px;
-        }
-        .section-three{
-            padding-top: 96px;
-        }
+
+
     .container-svg{
         display: none;
     }
-    .four-header{
-        margin-bottom: 8px;
-    }
+
     .second-header{
-        font-size: 36px;
+    font-size: 36px;
         font-weight: 700;
-         line-height: 1.07;
-        letter-spacing: 0.02em;
+        line-height: 40px;
+        letter-spacing: 0.72px;
         text-transform: capitalize;
-        margin-bottom: 8px;
     }
    .first-header{
-        max-width: 320px;
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
+        margin-bottom: 72px;
+            max-width: 320px;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
         
     }
     .nav-bar{
@@ -85,8 +81,8 @@
     }
        .address-nav{
                  display: none;
-                 flex-direction: column;
-                 gap: 12px;
+               
+               
        }
        .section-three{
           display: none;
@@ -106,9 +102,8 @@
           }  
         .container-footer{
             display: flex;
-            justify-content: center;
-            align-items: center;
             flex-direction: column;
+            gap: 72px;
         }
         .container-text{
                 display: flex;
