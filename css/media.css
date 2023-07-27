@@ -173,14 +173,14 @@
             text-align: start;
          }
 }
-@media screen and (min-width: 768px) and (min-width: 1158px){
+@media screen and (min-width: 1158px){
     .container {
             max-width: 1158px;
             padding-left: 15px;
             padding-right: 15px;
         }
     .logo-web{
-        margin-right: 76px;
+        margin-right: auto;
     }
     .nav-menu{
         display: flex;
