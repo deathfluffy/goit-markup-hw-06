@@ -78,7 +78,7 @@ fill: #FFF;
 
 
 .button-footer{
-           margin: 0 auto;
+
             background-color: var(--custom-color);
             min-width: 165px;
             height: 40px;
@@ -310,7 +310,7 @@ span {
 .text-footer {
    
     
-    max-width: 264px;
+    
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -398,6 +398,7 @@ span {
     padding: 96px 0;
 }
 .section-four-li{
+   
     border-radius: 0px 0px 4px 4px;
         background-color: #FFFFFF;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -510,7 +511,7 @@ span {
     
         display: flex;
         gap: 72px;
-        justify-content: center;
+
 }
 
              
@@ -519,7 +520,6 @@ header{
 }
 .address {
     display: block;
-    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -529,7 +529,19 @@ header{
     
 
 }
-
+.address-tel{
+        display: block;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            color: var(--iris, #434455);
+}
+.address-tel:hover,
+.address-tel:focus{
+color: #404bbf; 
+}
 .address:hover,
 .address:focus {
     color: #404bbf;
@@ -1026,8 +1038,14 @@ input#user-name:focus {
 .container-button-footer{
 display: flex;
     flex-direction: column;
+    width: 100%;
 }
-        
+   .container-button-modal{
+    display: flex;
+      justify-content: center;
+   }
+
+   
 
 
 
@@ -1049,11 +1067,11 @@ display: flex;
 .menu-4{
         display: flex;
             justify-content: center;
-            gap: 72px;
+            gap: 24px;
 }
 .menu-8{
     display: flex;
-        gap: 72px;
+        gap: 24px;
         align-items: center;
 }
 .menu-3{
@@ -1232,7 +1250,6 @@ display: flex;
         padding-left: 16px;
         color: #ffffff;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-        margin-bottom: 16px;
 }
 
 .intup-footer::placeholder {
@@ -1255,6 +1272,7 @@ display: flex;
 }
 .container-header {
     display: flex;
+
 }
 
 .modal-span {
@@ -1407,7 +1425,7 @@ display: flex;
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 5%;
+    padding: 40px;
     background-color: #fff;
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
     transform: translateX(100%);
@@ -1487,7 +1505,6 @@ display: flex;
     line-height: 1.1;
     letter-spacing: 0.72px;
     color: var(--custom-color);
-    margin-bottom: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -1518,14 +1535,13 @@ display: flex;
     background-color: #404bbf;
 }
 .mobile-mail {
-    margin-bottom: 48px;
+
     display: block;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
     color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1551,6 +1567,13 @@ display: flex;
 .svg-moblie {
     fill: currentColor;
 }
+
+.link-tel{
+    margin-bottom: 40px;
+}
+.link-address{
+    margin-bottom: 48px;
+}
 .mobile-tel{
     display: block;
         font-size: 36px;
@@ -1558,13 +1581,13 @@ display: flex;
         line-height: 1.1;
         letter-spacing: 0.72px;
         color: #2E2F42;
-        margin-bottom: 40px;
+   
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        color: var(--custom-color);
 
 }
 .mobile-mail{
-            margin-bottom: 48px;
+           
                 display: block;
                 font-size: 20px;
                 font-weight: 500;
