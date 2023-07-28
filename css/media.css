@@ -56,12 +56,7 @@
         }
     
         .first-header {
-            text-align: center;
-            font-size: 36px;
-            font-weight: 700;
-            line-height: 40px;
-            letter-spacing: 0.72px;
-            text-transform: capitalize;
+           max-width: 320px;
   
         }
     
@@ -190,14 +185,10 @@
                 gap: 72px;
     }
     .first-header{
-                margin-left: 40px;
+                margin-left: auto;
                 max-width: 320px;
-                text-align: center;
-                font-size: 36px;
-                font-weight: 700;
-                line-height: 40px;
-                letter-spacing: 0.72px;
-                text-transform: capitalize;
+                margin-right: auto;
+ 
     }
     .four-header{
         display: flex;
@@ -266,7 +257,7 @@
                  (max-resolution: 191dpi),
                  (max-resolution: 1dppx) {
                      .section-first {
-                         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg)
+                         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1x-phone.jpg)
                      }
                  }
 
@@ -276,6 +267,7 @@
     
 
 @media screen and (min-width: 768px){
+
     .container {
         max-width: 768px;
     }
@@ -313,10 +305,12 @@
      }
      .address-tel{
         display: flex;
+        font-size: 12px;
 
      }
     .address {
         display: flex;
+        font-size: 12px;
        
     }
 
@@ -334,13 +328,14 @@
            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2x-tab.jpg);
        }
    }
-                   @media (min-device-pixel-ratio: 1),
-                   (max-resolution: 191dpi),
-                   (max-resolution: 1dppx) {
-                       .section-first {
-                           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg)
-                       }
-                   }
+                @media (min-device-pixel-ratio: 1),
+                (max-resolution: 191dpi),
+                (max-resolution: 1dppx) {
+                    .section-first {
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1x-table.jpg)
+                    }
+                }
+                   
 
 
     .moblie-button {
@@ -462,7 +457,7 @@
     .text-footer {
             max-width: 100%;
     }
- 
+   
     .container {
             max-width: 1158px;
             padding-left: 15px;
@@ -485,7 +480,12 @@
     .logo-web{
         margin-right: 76px;
     }
-
+    .address{
+        font-size: 16px;
+    }
+    .address-tel{
+        font-size: 16px;
+    }
           .four-header {
               display: flex;
               justify-content: center;
