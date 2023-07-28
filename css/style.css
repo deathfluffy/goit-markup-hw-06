@@ -242,7 +242,7 @@ fill: #FFF;
 .container-text{
         display: flex;
             flex-direction: column;
-            align-items: center;
+          
 }
 .svg-icon-1{
 fill: currentColor;
@@ -334,7 +334,7 @@ span {
 }
 
 .social-text{
-    text-align: center;
+
         margin-bottom: 16px;
         color: #FFFFFF;
         font-size: 16px;
@@ -477,12 +477,12 @@ span {
 
 
 }
-.address-nav{
+/* .address-nav{
         display: flex;
             gap: 40px;
           
     
-}
+} */
 .logo-3 {
 
    
@@ -509,16 +509,11 @@ span {
 .container-footer{
     
         display: flex;
-            flex-direction: column;
-            gap: 72px;
+        gap: 72px;
+        justify-content: center;
 }
 
-                .container-footer{
-                    display: flex;
-                        flex-direction: column;
-                        gap: 72px;
-                        
-                }
+             
 header{
         display: block;
 }
@@ -689,12 +684,13 @@ padding: 120px 0;
 }
 .header-two{
    
-      text-align: center;
+        text-align: center;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 72px;
 }
 
 .img {
@@ -721,8 +717,8 @@ h3 {
             font-weight: 700;
             text-transform: capitalize;
             margin-bottom: 48px;
-            margin-left: auto;
-            margin-right: auto;
+            /* margin-left: auto;
+            margin-right: auto; */
             line-height: 1.07;
             letter-spacing: 0.02em;
             color: #FFFFFF;
@@ -738,7 +734,7 @@ h3 {
 
 
 .menu-worker {
-    display: flex;
+        display: flex;
         justify-content: center;
         gap: 24px;
 
@@ -771,7 +767,7 @@ h3 {
 }
 .link-svg{
             display: flex;
-            margin-bottom: 40px;
+
             fill: #ffffff;
             background-color: #4d5ae5;
             border-radius: 50%;
@@ -1036,7 +1032,7 @@ display: flex;
 
 
 .section-four-li-v2{
-    /* height: 88px; */
+
     width: calc((100% - 16px) / 2);
 }
 .menu-2{
@@ -1048,15 +1044,15 @@ display: flex;
 .menu-5{
     display: flex;
         gap: 24px;
+        justify-content: center;
     }
 .menu-4{
         display: flex;
-            flex-direction: column;
+            justify-content: center;
             gap: 72px;
 }
 .menu-8{
     display: flex;
-        flex-direction: column;
         gap: 72px;
         align-items: center;
 }
