@@ -5,7 +5,10 @@
             margin-right: 120px;
     
         }
-    
+        .container-modal{
+            max-width: 401px;
+            width: 100%;
+        }
         .mobile-social-list {
             display: flex;
             align-items: center;
