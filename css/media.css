@@ -69,9 +69,7 @@
             display: flex;
             justify-content: center;
         }
-                 .section-first {
-                     max-width: 428px;
-                 }
+               
         .text {
             font-size: 16px;
             font-weight: 500;
