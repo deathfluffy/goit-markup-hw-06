@@ -101,6 +101,11 @@ fill: #FFF;
 .button-footer:focus {
     background-color: #404BBF;
 }
+.container-1{
+    width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+}
 .second-header{
     text-align: center;
         font-size: 36px;
@@ -478,12 +483,15 @@ span {
 
 
 }
-/* .address-nav{
+.portfolio-link{
+    margin-top: 20px;
+}
+ .address-nav-5{
         display: flex;
             gap: 40px;
           
     
-} */
+} 
 .logo-3 {
 
    
@@ -506,7 +514,11 @@ span {
             padding: 97px 0;
         
         }
-
+.footer-5{
+background-color: #2E2F42;
+    padding: 97px 0;
+    margin-top: 120px;
+}
 .container-footer{
     
         display: flex;
@@ -528,6 +540,24 @@ header{
     color: var(--iris, #434455);
     
 
+}
+.address-8{
+    display: block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        color: var(--iris, #434455);
+}
+.address-9{
+    display: block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        color: var(--iris, #434455);
 }
 .address-tel{
         display: block;
@@ -744,7 +774,15 @@ h3 {
      margin-right: auto;
  }
 
+.menu-portfolio{
+    display: flex;
+        justify-content: center;
+        gap: 24px;
 
+}
+.section-first-1{
+    margin-top: 100px;
+}
 .menu-worker {
         display: flex;
         justify-content: center;
@@ -1147,6 +1185,7 @@ display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    margin-top: 72px;
 }
 
 .portfolio-a-card {
@@ -1251,7 +1290,22 @@ display: flex;
         color: #ffffff;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
-
+.intup-footer-5{
+                width: 264px;
+                height: 40px;
+                border-radius: 4px;
+                border: 1px solid #ffffff;
+                background-color: transparent;
+                font-size: 12px;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+                padding-left: 16px;
+                color: #ffffff;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.intup-footer-5::placeholder{
+    color: #ffff
+}
 .intup-footer::placeholder {
     color: #ffffff;
 }
