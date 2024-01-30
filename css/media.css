@@ -1,635 +1,859 @@
-@media screen and (max-width: 428px){
-   
-    .logo-web {
-            padding: 24px 0;
-            margin-right: 120px;
-    
-        }
-        .container-modal{
-            max-width: 401px;
-            width: 100%;
-        }
-        .mobile-social-list {
-            display: flex;
-            align-items: center;
-            gap: 32px;
-        }
-    
-        .mobile-tel {
-                font-size: 24px;
-        }
-    
-        .container-header {
-            display: flex;
-            justify-content: space-between;
-        }
-    
-        .nav-bar {
-            display: none;
-        }
-    
-        .text-under {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .social-text {
-            text-align: center;
-        }
-    
-        .address-1 {
-            display: none;
-        }
-    
-        .menu-8 {
-            display: flex;
-            flex-direction: column;
-            gap: 72px;
-            align-items: center;
-        }
-    
-        .menu-4 {
-            display: flex;
-            flex-direction: column;
-            gap: 72px;
-        }
-    
-        .first-header {
-           max-width: 320px;
-  
-        }
-    
-        .four-header {
-            display: flex;
-            justify-content: center;
-        }
-    
-        .text-2 {
-            display: flex;
-            justify-content: center;
-        }
-               
-        .text {
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.32px;
-        }
-    
-        .second-header {
-            font-size: 36px;
-            font-weight: 700;
-            line-height: 40px;
-            letter-spacing: 0.72px;
-            text-transform: capitalize;
-        }
-    
-        .container-svg-5 {
-            display: none;
-        }
-    
-        .container-text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-right: 0;
-    
-        }
-    
-        .social-media {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .form-footer {
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .text-footer {
-            max-width: 264px;
-    
-        }
-    
-        .container-footer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 72px;
-    
-        }
-    
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-            .section-first {
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
-            }
-        }
-                                        @media (min-device-pixel-ratio: 1),
-                                        (max-resolution: 191dpi),
-                                        (max-resolution: 1dppx) {
-                                            .section-first {
-                                                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg)
-                                            }
-                                        }
-    }
+/*-------- WEBSTUDIO -------- */
+@media screen and (max-width: 428px) {
+  .logo-web {
+    padding: 24px 0;
+    margin-right: 120px;
+  }
+  .container-modal {
+    max-width: 401px;
+    width: 100%;
+  }
+  .mobile-social-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
 
-@media screen and (min-width: 428px){
+  .mobile-tel {
+    font-size: 24px;
+  }
 
-    .section-first{
-        max-width: 428px;
-    }
-    .logo-web {
-        padding: 24px 0;
-        margin-right: 120px;
-     
-    }
-    .mobile-social-list{
-        display: flex;
-            align-items: center;
-            gap: 36px;
-    }
-    .mobile-tel{
-        font-size: 35px;
-    }
-        .container-header{
-            display: flex;
-            justify-content: space-between;
-        }
-    .nav-bar{
-        display: none;
-    }
-         
-    .text-under{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .social-text{
-            text-align: center;
-    }
- 
-    .address-1{
-        display: none;
-    }
- 
-    .menu-8{
-        display: flex;
-            flex-direction: column;
-            gap: 72px;
-            align-items: center;
-    }
-    .menu-4{
-            display: flex;
-                flex-direction: column;
-                gap: 72px;
-    }
-    .first-header{
-                margin-left: auto;
-                max-width: 320px;
-                margin-right: auto;
- 
-    }
-    .four-header{
-        display: flex;
-        justify-content: center;
-    }
-    .text-2{
-        display: flex;
-            justify-content: center;
-    }
-     
-    .text{
-        font-size: 16px;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.32px;
-    }
-    .second-header{
-            font-size: 36px;
-                font-weight: 700;
-                line-height: 40px;
-                letter-spacing: 0.72px;
-                text-transform: capitalize;
-    }
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .container-svg-5{
-        display: none;
+  .nav-bar {
+    display: none;
+  }
+
+  .text-under {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-text {
+    text-align: center;
+  }
+
+  .address-1 {
+    display: none;
+  }
+
+  .menu-8 {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+  }
+
+  .menu-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .first-header {
+    max-width: 320px;
+  }
+
+  .four-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+  }
+
+  .second-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  .container-svg-5 {
+    display: none;
+  }
+
+  .container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-footer {
+    max-width: 264px;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-first {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
     }
-        .container-text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-right: 0;
-    
-        }
-    
-        .social-media {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .form-footer {
-            display: flex;
-            flex-direction: column;
-        }
-                  .text-footer {
-                      max-width: 264px;
-        
-                  }
-    
-        .container-footer {
-            display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 72px;
-
-            }
-      @media (min-device-pixel-ratio: 2),
-         (min-resolution: 192dpi),
-           (min-resolution: 2dppx) {
-           .section-first {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2x.jpg);
-          }
-     }
-                 @media (min-device-pixel-ratio: 1),
-                 (max-resolution: 191dpi),
-                 (max-resolution: 1dppx) {
-                     .section-first {
-                         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1x-phone.jpg)
-                     }
-                 }
-
- }
-       
-       
-    
-
-@media screen and (min-width: 768px){
-    .section-first{
-        max-width: 768px;
+  }
+  @media (min-device-pixel-ratio: 1),
+    (max-resolution: 191dpi),
+    (max-resolution: 1dppx) {
+    .section-first {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office1.jpg);
     }
-    .container {
-        max-width: 768px;
-    }
-    .address{
-        padding: 0;
-        display: flex;
-        gap: 12px;
-    }
-    .logo-web {
-        margin-right: 120px;
-    }
-
-    .container-svg-5 {
-        display: none;
-    }
-
-    .nav-menu {
-        display: flex;
-    }
-                .four-header {
-                    display: flex;
-                    justify-content: center;
-                }
-        
-                .text-2 {
-                    display: flex;
-                    justify-content: center;
-                }
-    .nav-bar {
-        display: flex;
-        gap: 40px;
-    }
-     .address-1{
-        display: flex;
-     }
-     .address-tel{
-        display: flex;
-        font-size: 12px;
-
-     }
-    .address {
-        display: flex;
-        font-size: 12px;
-       
-    }
-
-    .address-nav {
-        display: flex;
-            flex-direction: column;
-            gap: 12px;
-            justify-content: center;
-    }
-        
-   @media (min-device-pixel-ratio: 2),
-   (min-resolution: 192dpi),
-   (min-resolution: 2dppx) {
-       .section-first {
-           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2x-tab.jpg);
-       }
-   }
-                @media (min-device-pixel-ratio: 1),
-                (max-resolution: 191dpi),
-                (max-resolution: 1dppx) {
-                    .section-first {
-                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1x-table.jpg)
-                    }
-                }
-                   
-
-
-    .moblie-button {
-        display: none;
-    }
-
-    .first-header {
-        margin-bottom: 48px;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 496px;
-        width: 496px;
-        text-align: center;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-    }
-
-    .second-header {
-        text-align: start;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-    }
-
-    .menu-4 {
-        display: flex;
-        flex-direction: row;
-        gap: 72px 24px;
-        flex-wrap: wrap;
-    }
-
-    .section-two-li-6 {
-        width: 48%;
-    }
-         .section-two-li{
-            width: 48%;
-         }
-                 .section-two-li {
-                    width: calc((100% - 24px) / 3);
-                 }
-    .menu-8 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        gap: 64px 24px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .menu-3 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 72px 24px;
-        justify-content: center;
-    }
-
-    .section-four-li-v2 {
-            width: calc((100% - 64px) / 4);
-    }
-
-    .container-footer {
-        width: 582px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 72px 24px;
-    }
-
-    .logo-web-1 {
-        display: flex;
-        align-items: flex-start;
-
-    }
-
-
-    .form-footer {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .container-text {
-        align-items: flex-start;
-        display: flex;
-    }
-
-    .social-media {
-        align-items: flex-start;
-
-    }
-
-    .intup-footer {
-        width: 264px;
-
-    }
-
-    .text-under {
-        align-items: start;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .button-footer {
-        text-align: start;
-    }
-        .text-footer {
-             max-width: 264px;
-            
-        }
-              
+  }
 }
 
-@media screen and (min-width: 1158px){
-    .text-footer {
-            max-width: 100%;
-    }
-   
-    .container {
-            max-width: 1158px;
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-                @media (min-device-pixel-ratio: 2),
-                (min-resolution: 192dpi),
-                (min-resolution: 2dppx) {
-                    .section-first {
-                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-2x-pc.jpg);
-                    }
-                }
-                                        @media (min-device-pixel-ratio: 1),
-                                        (max-resolution: 191dpi),
-                                        (max-resolution: 1dppx) {
-                                            .section-first {
-                                                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg)
-                                            }
-                                        }
-    .logo-web{
-        margin-right: 76px;
-    }
-    .address{
-        font-size: 16px;
-    }
-    .address-tel{
-        font-size: 16px;
-    }
-          .four-header {
-              display: flex;
-              justify-content: center;
-          }
-    
-          .text-2 {
-              display: flex;
-              justify-content: center;
-            
-          }
-    .menu-8{
-        display: flex;
-        justify-content: center;
-        
-    }
-        .address-nav {
-            display: flex;
-            justify-content: center;
-            flex-direction: row;
-            padding: 24px 0;
-            gap: 40px;
-        }
-    .nav-menu{
-        display: flex;
-    }
+@media screen and (min-width: 428px) {
+  .section-first {
+    max-width: 428px;
+  }
+  .logo-web {
+    padding: 24px 0;
+    margin-right: 120px;
+  }
+  .mobile-social-list {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+  }
+  .mobile-tel {
+    font-size: 35px;
+  }
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-bar {
+    display: none;
+  }
 
-    .nav-bar{
-        display: flex;
-            flex-direction: row;
-            gap: 40px;
+  .text-under {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-text {
+    text-align: center;
+  }
+
+  .address-1 {
+    display: none;
+  }
+
+  .menu-8 {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+  }
+  .menu-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .first-header {
+    margin-left: auto;
+    max-width: 320px;
+    margin-right: auto;
+  }
+  .four-header {
+    display: flex;
+    justify-content: center;
+  }
+  .text-2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+  }
+  .second-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  .container-svg-5 {
+    display: none;
+  }
+  .container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-footer {
+    max-width: 264px;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-first {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
     }
-    .address-1{
-        display: flex;
-            flex-direction: row;
-            gap: 40px;
+  }
+  @media (min-device-pixel-ratio: 1),
+    (max-resolution: 191dpi),
+    (max-resolution: 1dppx) {
+    .section-first {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-1x-phone.jpg);
     }
-    .menu-button{
-        display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-first {
+    max-width: 768px;
+  }
+  .container {
+    max-width: 768px;
+  }
+  .address {
+    padding: 0;
+    display: flex;
+    gap: 12px;
+  }
+  .logo-web {
+    margin-right: 120px;
+  }
+
+  .container-svg-5 {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+  .four-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-2 {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-bar {
+    display: flex;
+    gap: 40px;
+  }
+  .address-1 {
+    display: flex;
+  }
+  .address-tel {
+    display: flex;
+    font-size: 12px;
+  }
+  .address {
+    display: flex;
+    font-size: 12px;
+  }
+
+  .address-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-first {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x-tab.jpg);
     }
-    .section-first{
+  }
+  @media (min-device-pixel-ratio: 1),
+    (max-resolution: 191dpi),
+    (max-resolution: 1dppx) {
+    .section-first {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-1x-table.jpg);
+    }
+  }
+
+  .moblie-button {
+    display: none;
+  }
+
+  .first-header {
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 496px;
+    width: 496px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+
+  .second-header {
+    text-align: start;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  .menu-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+  }
+
+  .section-two-li-6 {
+    width: 48%;
+  }
+  .section-two-li {
+    width: 48%;
+  }
+  .section-two-li {
+    width: calc((100% - 24px) / 3);
+  }
+  .menu-8 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px 24px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    justify-content: center;
+  }
+
+  .section-four-li-v2 {
+    width: calc((100% - 64px) / 4);
+  }
+
+  .container-footer {
+    width: 582px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .logo-web-1 {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .form-footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-text {
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .social-media {
+    align-items: flex-start;
+  }
+
+  .intup-footer {
+    width: 264px;
+  }
+
+  .text-under {
+    align-items: start;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .button-footer {
+    text-align: start;
+  }
+  .text-footer {
+    max-width: 264px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .text-footer {
+    max-width: 100%;
+  }
+
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-first {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x-pc.jpg);
+    }
+  }
+  @media (min-device-pixel-ratio: 1),
+    (max-resolution: 191dpi),
+    (max-resolution: 1dppx) {
+    .section-first {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office1.jpg);
+    }
+  }
+  .logo-web {
+    margin-right: 76px;
+  }
+  .address {
+    font-size: 16px;
+  }
+  .address-tel {
+    font-size: 16px;
+  }
+  .four-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-2 {
+    display: flex;
+    justify-content: center;
+  }
+  .menu-8 {
+    display: flex;
+    justify-content: center;
+  }
+  .address-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 24px 0;
+    gap: 40px;
+  }
+  .nav-menu {
+    display: flex;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .address-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .menu-button {
+    display: none;
+  }
+  .section-first {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .first-header {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 496px;
+    width: 496px;
+  }
+  .section-second {
+    padding: 120px 0;
+  }
+  .container-svg-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+  }
+  .section-two-svg {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-header {
+    text-align: start;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  .section-two-li-6 {
+    width: calc((100% - 72px) / 4);
+  }
+  .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .section-three {
+    display: flex;
+  }
+  .section-four {
+    padding: 120px 0;
+  }
+  .section-four-li {
+    width: calc((100% - 72px) / 4);
+  }
+  .section-customers {
+    padding: 120px 0;
+  }
+  .menu-3 {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    justify-content: center;
+  }
+  .section-four-li-v2 {
+    height: 88px;
+    width: calc((100% - 120px) / 6);
+  }
+  .container-footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  .container-text {
+    margin-right: 120px;
+  }
+  .text-under {
+    display: flex;
+    align-items: flex-start;
+  }
+  .social-media {
+    margin-right: 80px;
+  }
+  .intup-footer {
+    width: 264px;
+    margin-bottom: 0;
+  }
+}
+/*-------- PORTFOLIO -------- */
+@media screen and (max-width: 767px) {
+
+
+  .container-header {
+    display: flex;
+    align-items: center;
+  }
+  .container-1 {
+    min-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+  }
+  .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+  .address-1 {
+    display: none;
+  }
+  .logo-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 76px;
+  }
+  .link {
+    text-decoration: none;
+  }
+
+  .header-nav__item {
+    display: none;
+  }
+  .header-nav__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
+  .link-portfolio {
+  }
+  .address-nav-5 {
+  }
+  .portfolio-link {
+  }
+  .address-9 {
+  }
+  .address-8 {
+  }
+  .section-first-1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .menu-portfolio {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+  .button-all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+  }
+  .portfolio-nav-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+  }
+  .portfolio-list-img {
+    margin-bottom: 48px;
+  }
+
+  
+
+  .portfolio-list-explain {
+    border-top: none;
+    padding: 32px 16px;
+  }
+  .section-two-headlines {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .section-two-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .container-footer {
+    text-align: center;
+  }
+  .container-text {
+    width: 264px;
+    margin: 0 auto;
+  }
+
+  .logo-3 {
+  }
+  .text-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-media {
+    margin-top: 72px;
+  }
+  .social-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  .menu-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  .container-button-footer {
+    margin-top: 72px;
+  }
+  .text-under {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px 
+  }
+  .form-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .intup-footer-5 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: transparent;
+    width: 100%;
+    min-height: 40px;
+    flex-shrink: 0;
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    outline: none;
+  }
+  .button-footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    min-width: 165px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-icon {
+  }
+}
+@media screen and (min-width: 1158px){
+    .moblie-button{
+         display: none;
+    }
+    .container-1 {
+        width: 1158px;
+        padding: 0 15px;
         margin: 0 auto;
-            max-width: 1440px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            padding-top: 188px;
-            padding-bottom: 188px;
     }
-    .first-header{
-                text-align: center;
-                    font-size: 56px;
-                    font-weight: 700;
-                    line-height: 60px;
-                    letter-spacing: 1.12px;
-                        margin-bottom: 48px;
-                            margin-left: auto;
-                            margin-right: auto;
-                            max-width: 496px;
-                            width: 496px;
+    .section-first-1{
+        margin-top: 100px;
     }
-    .section-second{
-        padding: 120px 0;
+    .portfolio-list-img {
+         width: calc((100% - 48px) / 3); 
     }
-    .container-svg-5{
-            display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 264px;
-                height: 112px;
-                border-radius: 4px;
-                margin-bottom: 8px;
-                background-color: #F4F4FD;
-    }
-          .section-two-svg {
-              width: 64px;
-              height: 64px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-          }
-          .second-header{
-                text-align: start;
-                    margin-bottom: 8px;
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 1.2;
-                    letter-spacing: 0.02em;
-          }
-                          .section-two-li-6 {
-                              width: calc((100% - 72px) / 4);
-                          }
-         .text{
-            font-weight: 400;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-         }
-                  .section-three {
-                      display: flex;
-                  }
-                           .section-four {
-                               padding: 120px 0;
-                           }
-                .section-four-li{
-                    width: calc((100% - 72px) / 4);
-                }
-        .section-customers{
-              
-                        padding: 120px 0;
-                
-        }
-        .menu-3{
-            display: flex;
-                gap: 24px;
-                margin: 0;
-                justify-content: center;
-        }
-        .section-four-li-v2{
-            height: 88px;
-                width: calc((100% - 120px) / 6);
-        }
-        .container-footer{
-                width: 100%;
-                    display: flex;
-                    flex-wrap: nowrap;
-                    gap: 0;
-        }
-        .container-text{
-            margin-right: 120px;
-        }
-        .text-under{
-            display: flex;
-            align-items: flex-start;
-        }
-        .social-media{
-            margin-right: 80px;
-        }
-        .intup-footer{
-            width: 264px;
-                margin-bottom: 0;
-        }
-    }
+}
+   
+
+
+@media screen and (max-width:  1157px) {
+    .footer-5 {
+        padding: 96px 0;
+      }
+
+}
