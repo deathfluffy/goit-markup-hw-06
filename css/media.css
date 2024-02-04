@@ -887,12 +887,7 @@
     .moblie-button{
          display: none;
     }
-    .container-header {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      gap: 40px;
-    }
+
     .portfolio-nav-img {
       display: flex;
       flex-wrap: wrap;
